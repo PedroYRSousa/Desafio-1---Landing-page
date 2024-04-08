@@ -42,16 +42,19 @@ header div h1 {
 	font-weight: 600;
 	line-height: 72px;
 	letter-spacing: -0.025em;
-	text-align: left;
 }
 
 header div h5 {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 28px;
-	text-align: left;
 
 	margin-top: 20px;
+}
+
+header div h1,
+header div h5 {
+	text-align: left;
 }
 
 main section {
@@ -79,13 +82,16 @@ main section.details div h1 {
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 28px;
-	text-align: left;
 }
 
 main section.details div span {
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 28px;
+}
+
+main section.details div h1,
+main section.details div span {
 	text-align: left;
 }
 
@@ -104,7 +110,6 @@ main section.content div h1 {
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 20px;
-	text-align: left;
 
 	margin-bottom: 55px;
 }
@@ -113,6 +118,10 @@ main section.content div span {
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 30px;
+}
+
+main section.content div h1,
+main section.content div span {
 	text-align: left;
 }
 
